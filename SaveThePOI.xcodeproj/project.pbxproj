@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB861B218BA35EC00880814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861B118BA35EB00880814 /* Foundation.framework */; };
+		CCB861B418BA35EC00880814 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861B318BA35EC00880814 /* CoreGraphics.framework */; };
+		CCB861B618BA35EC00880814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861B518BA35EC00880814 /* UIKit.framework */; };
+		CCB861BC18BA35EC00880814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB861BA18BA35EC00880814 /* InfoPlist.strings */; };
+		CCB861BE18BA35EC00880814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB861BD18BA35EC00880814 /* main.m */; };
+		CCB861C218BA35EC00880814 /* POIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB861C118BA35EC00880814 /* POIAppDelegate.m */; };
+		CCB861C518BA35EC00880814 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB861C318BA35EC00880814 /* Main_iPhone.storyboard */; };
+		CCB861CB18BA35EC00880814 /* POIMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB861CA18BA35EC00880814 /* POIMapController.m */; };
+		CCB861D018BA35EC00880814 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB861CF18BA35EC00880814 /* Images.xcassets */; };
+		CCB861D718BA35EC00880814 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861D618BA35EC00880814 /* XCTest.framework */; };
+		CCB861D818BA35EC00880814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861B118BA35EB00880814 /* Foundation.framework */; };
+		CCB861D918BA35EC00880814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861B518BA35EC00880814 /* UIKit.framework */; };
+		CCB861E118BA35EC00880814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB861DF18BA35EC00880814 /* InfoPlist.strings */; };
+		CCB861E318BA35EC00880814 /* SaveThePOITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB861E218BA35EC00880814 /* SaveThePOITests.m */; };
+		CCB861ED18BA397300880814 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB861EC18BA397300880814 /* MapKit.framework */; };
+		CCB861FD18BA914B00880814 /* map-pin-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB861FC18BA914B00880814 /* map-pin-7.png */; };
+		CCB861FF18BA917300880814 /* list-star-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB861FE18BA917300880814 /* list-star-7.png */; };
+		CCB8620218BA95E200880814 /* POIHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8620118BA95E200880814 /* POIHistoryController.m */; };
+		CCB8620418BA98FF00880814 /* POIData.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB8620318BA98FF00880814 /* POIData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB861DA18BA35EC00880814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB861A618BA35EB00880814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB861AD18BA35EB00880814;
+			remoteInfo = SaveThePOI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB861AE18BA35EB00880814 /* SaveThePOI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveThePOI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB861B118BA35EB00880814 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCB861B318BA35EC00880814 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCB861B518BA35EC00880814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCB861B918BA35EC00880814 /* SaveThePOI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaveThePOI-Info.plist"; sourceTree = "<group>"; };
+		CCB861BB18BA35EC00880814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCB861BD18BA35EC00880814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB861BF18BA35EC00880814 /* SaveThePOI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaveThePOI-Prefix.pch"; sourceTree = "<group>"; };
+		CCB861C018BA35EC00880814 /* POIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POIAppDelegate.h; sourceTree = "<group>"; };
+		CCB861C118BA35EC00880814 /* POIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POIAppDelegate.m; sourceTree = "<group>"; };
+		CCB861C418BA35EC00880814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCB861C918BA35EC00880814 /* POIMapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POIMapController.h; sourceTree = "<group>"; };
+		CCB861CA18BA35EC00880814 /* POIMapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POIMapController.m; sourceTree = "<group>"; };
+		CCB861CF18BA35EC00880814 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCB861D518BA35EC00880814 /* SaveThePOITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveThePOITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB861D618BA35EC00880814 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCB861DE18BA35EC00880814 /* SaveThePOITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaveThePOITests-Info.plist"; sourceTree = "<group>"; };
+		CCB861E018BA35EC00880814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCB861E218BA35EC00880814 /* SaveThePOITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveThePOITests.m; sourceTree = "<group>"; };
+		CCB861EC18BA397300880814 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CCB861FC18BA914B00880814 /* map-pin-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin-7.png"; path = "../../../../../Downloads/iconbeast-lite-7/iconbeast lite 7 - png/map-pin-7.png"; sourceTree = "<group>"; };
+		CCB861FE18BA917300880814 /* list-star-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-star-7.png"; path = "../../../../../Downloads/iconbeast-lite-7/iconbeast lite 7 - png/list-star-7.png"; sourceTree = "<group>"; };
+		CCB8620018BA95DB00880814 /* POIHistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POIHistoryController.h; sourceTree = "<group>"; };
+		CCB8620118BA95E200880814 /* POIHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIHistoryController.m; sourceTree = "<group>"; };
+		CCB8620318BA98FF00880814 /* POIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIData.m; sourceTree = "<group>"; };
+		CCB8620518BA990500880814 /* POIData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POIData.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB861AB18BA35EB00880814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB861ED18BA397300880814 /* MapKit.framework in Frameworks */,
+				CCB861B418BA35EC00880814 /* CoreGraphics.framework in Frameworks */,
+				CCB861B618BA35EC00880814 /* UIKit.framework in Frameworks */,
+				CCB861B218BA35EC00880814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB861D218BA35EC00880814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB861D718BA35EC00880814 /* XCTest.framework in Frameworks */,
+				CCB861D918BA35EC00880814 /* UIKit.framework in Frameworks */,
+				CCB861D818BA35EC00880814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB861A518BA35EB00880814 = {
+			isa = PBXGroup;
+			children = (
+				CCB861B718BA35EC00880814 /* SaveThePOI */,
+				CCB861DC18BA35EC00880814 /* SaveThePOITests */,
+				CCB861B018BA35EB00880814 /* Frameworks */,
+				CCB861AF18BA35EB00880814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB861AF18BA35EB00880814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB861AE18BA35EB00880814 /* SaveThePOI.app */,
+				CCB861D518BA35EC00880814 /* SaveThePOITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB861B018BA35EB00880814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB861EC18BA397300880814 /* MapKit.framework */,
+				CCB861B118BA35EB00880814 /* Foundation.framework */,
+				CCB861B318BA35EC00880814 /* CoreGraphics.framework */,
+				CCB861B518BA35EC00880814 /* UIKit.framework */,
+				CCB861D618BA35EC00880814 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB861B718BA35EC00880814 /* SaveThePOI */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8620118BA95E200880814 /* POIHistoryController.m */,
+				CCB8620018BA95DB00880814 /* POIHistoryController.h */,
+				CCB861FE18BA917300880814 /* list-star-7.png */,
+				CCB861FC18BA914B00880814 /* map-pin-7.png */,
+				CCB861C018BA35EC00880814 /* POIAppDelegate.h */,
+				CCB861C118BA35EC00880814 /* POIAppDelegate.m */,
+				CCB8620518BA990500880814 /* POIData.h */,
+				CCB8620318BA98FF00880814 /* POIData.m */,
+				CCB861C318BA35EC00880814 /* Main_iPhone.storyboard */,
+				CCB861C918BA35EC00880814 /* POIMapController.h */,
+				CCB861CA18BA35EC00880814 /* POIMapController.m */,
+				CCB861CF18BA35EC00880814 /* Images.xcassets */,
+				CCB861B818BA35EC00880814 /* Supporting Files */,
+			);
+			path = SaveThePOI;
+			sourceTree = "<group>";
+		};
+		CCB861B818BA35EC00880814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB861B918BA35EC00880814 /* SaveThePOI-Info.plist */,
+				CCB861BA18BA35EC00880814 /* InfoPlist.strings */,
+				CCB861BD18BA35EC00880814 /* main.m */,
+				CCB861BF18BA35EC00880814 /* SaveThePOI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB861DC18BA35EC00880814 /* SaveThePOITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB861E218BA35EC00880814 /* SaveThePOITests.m */,
+				CCB861DD18BA35EC00880814 /* Supporting Files */,
+			);
+			path = SaveThePOITests;
+			sourceTree = "<group>";
+		};
+		CCB861DD18BA35EC00880814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB861DE18BA35EC00880814 /* SaveThePOITests-Info.plist */,
+				CCB861DF18BA35EC00880814 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB861AD18BA35EB00880814 /* SaveThePOI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB861E618BA35EC00880814 /* Build configuration list for PBXNativeTarget "SaveThePOI" */;
+			buildPhases = (
+				CCB861AA18BA35EB00880814 /* Sources */,
+				CCB861AB18BA35EB00880814 /* Frameworks */,
+				CCB861AC18BA35EB00880814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveThePOI;
+			productName = SaveThePOI;
+			productReference = CCB861AE18BA35EB00880814 /* SaveThePOI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB861D418BA35EC00880814 /* SaveThePOITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB861E918BA35EC00880814 /* Build configuration list for PBXNativeTarget "SaveThePOITests" */;
+			buildPhases = (
+				CCB861D118BA35EC00880814 /* Sources */,
+				CCB861D218BA35EC00880814 /* Frameworks */,
+				CCB861D318BA35EC00880814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB861DB18BA35EC00880814 /* PBXTargetDependency */,
+			);
+			name = SaveThePOITests;
+			productName = SaveThePOITests;
+			productReference = CCB861D518BA35EC00880814 /* SaveThePOITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB861A618BA35EB00880814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SaveThePOI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = nagrajn;
+				TargetAttributes = {
+					CCB861AD18BA35EB00880814 = {
+						DevelopmentTeam = 484ZR74747;
+					};
+					CCB861D418BA35EC00880814 = {
+						TestTargetID = CCB861AD18BA35EB00880814;
+					};
+				};
+			};
+			buildConfigurationList = CCB861A918BA35EB00880814 /* Build configuration list for PBXProject "SaveThePOI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB861A518BA35EB00880814;
+			productRefGroup = CCB861AF18BA35EB00880814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB861AD18BA35EB00880814 /* SaveThePOI */,
+				CCB861D418BA35EC00880814 /* SaveThePOITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB861AC18BA35EB00880814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB861D018BA35EC00880814 /* Images.xcassets in Resources */,
+				CCB861C518BA35EC00880814 /* Main_iPhone.storyboard in Resources */,
+				CCB861FD18BA914B00880814 /* map-pin-7.png in Resources */,
+				CCB861FF18BA917300880814 /* list-star-7.png in Resources */,
+				CCB861BC18BA35EC00880814 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB861D318BA35EC00880814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB861E118BA35EC00880814 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB861AA18BA35EB00880814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB861C218BA35EC00880814 /* POIAppDelegate.m in Sources */,
+				CCB861BE18BA35EC00880814 /* main.m in Sources */,
+				CCB8620418BA98FF00880814 /* POIData.m in Sources */,
+				CCB8620218BA95E200880814 /* POIHistoryController.m in Sources */,
+				CCB861CB18BA35EC00880814 /* POIMapController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB861D118BA35EC00880814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB861E318BA35EC00880814 /* SaveThePOITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB861DB18BA35EC00880814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB861AD18BA35EB00880814 /* SaveThePOI */;
+			targetProxy = CCB861DA18BA35EC00880814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB861BA18BA35EC00880814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB861BB18BA35EC00880814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCB861C318BA35EC00880814 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB861C418BA35EC00880814 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB861DF18BA35EC00880814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB861E018BA35EC00880814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB861E418BA35EC00880814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB861E518BA35EC00880814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB861E718BA35EC00880814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveThePOI/SaveThePOI-Prefix.pch";
+				INFOPLIST_FILE = "SaveThePOI/SaveThePOI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCB861E818BA35EC00880814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveThePOI/SaveThePOI-Prefix.pch";
+				INFOPLIST_FILE = "SaveThePOI/SaveThePOI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCB861EA18BA35EC00880814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaveThePOI.app/SaveThePOI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveThePOI/SaveThePOI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SaveThePOITests/SaveThePOITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCB861EB18BA35EC00880814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaveThePOI.app/SaveThePOI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveThePOI/SaveThePOI-Prefix.pch";
+				INFOPLIST_FILE = "SaveThePOITests/SaveThePOITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB861A918BA35EB00880814 /* Build configuration list for PBXProject "SaveThePOI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB861E418BA35EC00880814 /* Debug */,
+				CCB861E518BA35EC00880814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB861E618BA35EC00880814 /* Build configuration list for PBXNativeTarget "SaveThePOI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB861E718BA35EC00880814 /* Debug */,
+				CCB861E818BA35EC00880814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB861E918BA35EC00880814 /* Build configuration list for PBXNativeTarget "SaveThePOITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB861EA18BA35EC00880814 /* Debug */,
+				CCB861EB18BA35EC00880814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB861A618BA35EB00880814 /* Project object */;
+}
