@@ -9,5 +9,5 @@
 * No third party libraries, everything is Apple IOS SDK
 * We use GCD to avoid blocking issues  
 * We persist the search history
-* The search history is displayed in a table view on a seperate tab.
+* The search history is displayed in a table view on a separate tab. Read only. Selection will not show the map.
 * NO Unit Tests :-(
