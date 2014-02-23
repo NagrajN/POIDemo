@@ -1,4 +1,3 @@
-
 ![alt tag](http://imgur.com/iXyVLYw.jpg)  <....>  ![alt tag](http://imgur.com/GYhFa3O.jpg)
 
 
@@ -10,3 +9,4 @@
 * We use GCD to avoid blocking issues  
 * We save the search history in NSUserDefaults
 * The search history is displayed in a table view on a seperate tab.
+* NO Unit Tests :-(
