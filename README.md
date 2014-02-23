@@ -4,8 +4,9 @@
 
 * Built and tested on IOS 7 / XCode 5 / IPhone Simulator 
 * It has two view controllers 1) Map View and 2) History
-* You can search an address, text, zip code, etc. 
-* If its found (using google client api) then we show it on the map and insert an annotation
+* You can search an address, text, zip code, etc. (using google map client api)
+* If a search is successfull then we show it on the map and insert an annotation. 
+* Clicking the push pin brings up a annotation display
 * No third party libraries, everything is Apple IOS SDK
 * We use GCD to avoid blocking issues  
 * We persist the search history
